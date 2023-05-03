@@ -1,0 +1,21 @@
+.form-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.login-form{
+    border:1px solid grey;
+    padding:30px;
+    width: 50vh;
+}
+.btn-btn-primary{
+    color: red;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}

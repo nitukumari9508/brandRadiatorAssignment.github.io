@@ -1,0 +1,151 @@
+.hero-section {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header img {
+    height: 40px;
+  }
+  
+  hamburger {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    header nav {
+      display: none;
+    }
+  
+    header .hamburger {
+      display: block;
+      font-size: 24px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  
+    header .hamburger:focus {
+      outline: none;
+    }
+  
+    header .hamburger:hover {
+      color: #333;
+    }
+  
+    header .show {
+      display: block;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      z-index: 999;
+    }
+  
+    header .show ul {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    header .show li {
+      margin: 10px 0;
+    }
+  
+    header .show a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+.logo{
+    display: flex;
+    grid-column: 2/3;
+}
+.menu-link{
+    grid-column: 3/4;
+}
+.menu-link ul{
+    height:1orem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-link ul li {
+    font-size: 1.8rem;
+}
+.menu-link ul li a{
+    text-transform: capitalize;
+    color:rgba(red, green, blue, alpha);
+    transition: 0.5s;
+}
+.social-media{
+    grid-row: 1/2;
+    grid-column: 3/5;
+    justify-content: end;
+    align-items: center;
+    transition:all 2s linear
+}
+.social-media .social-media-desktop
+{
+    height: 0;
+    display: none;
+}
+.social-media ul{
+    height:1orem;
+    display:grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 3fr repeat(3,1fr);
+    justify-content: flex-end;
+}
+.social-media ul li{
+
+}
+.social-media ul li:first-child{
+    grid-column: 2/3;
+}
